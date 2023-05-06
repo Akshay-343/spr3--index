@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <style>
+    body{
+        background-color:  #eaf6f6;
+    }
+    </style>
+  <div class="text-center">
+     <br>
+      <p>Logged out!</p>
+      <br>
+    <a href="{% url 'login'%}">Click here to login again.</a>
+  </div>
+{% endblock %}
