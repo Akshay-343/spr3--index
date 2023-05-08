@@ -126,7 +126,7 @@ h6,
 }
 
 .carousel-caption {
-    top: 10px;
+    top: 1px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -134,13 +134,19 @@ h6,
     z-index: 1;
 }
 
+
 @media (max-width: 576px) {
     .carousel-inner{
         padding-top: 15px;
+         color: rgba(9, 30, 62, 0.45);
     }
-    .carousel-inner{
-       color: rgba(9, 30, 62, 0.45);
+    .carousel{
+      padding-top: -0px;
     }
+    .container-fluid{
+        margin-top:-22px;
+    }
+
     .carousel-caption{
         top: 0px;
     }
