@@ -130,11 +130,20 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .85);
+    background: rgba(9, 30, 62, 0.45);
     z-index: 1;
 }
 
 @media (max-width: 576px) {
+    .carousel-inner{
+        padding-top: 15px;
+    }
+    .carousel-inner{
+       color: rgba(9, 30, 62, 0.45);
+    }
+    .carousel-caption{
+        top: 0px;
+    }
     .carousel-caption h5 {
         font-size: 14px;
         font-weight: 500 !important;
